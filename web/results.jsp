@@ -36,7 +36,6 @@
             totalPay = hourWorked * hourlyPay;
         }   
         prePay = totalPay - preTaxDeduct;
-        
         if (prePay < 500)
         {
             taxAmount = prePay * normalPayRate;
@@ -45,7 +44,6 @@
         {
             taxAmount = prePay * overPayRate;
         }
-        
         postPay = prePay - taxAmount;
         netPay = postPay - postTaxDeduct; 
     %>
