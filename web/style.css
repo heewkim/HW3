@@ -1,0 +1,85 @@
+/* 
+    Created on : 2016-2-17, 21:49:57
+    Author     : Heewon Kim
+*/
+/* Color Libraty
+Box color: #95BE22
+Background color: #005700
+*/
+
+body{
+    font-size: 20px;
+    background-color: #4e4861;
+    color: #decf95;
+    
+}
+
+h1{
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #ffffff;
+    text-align:center;
+}
+
+hr{
+    height: 3px;
+    border: none;
+    border-top: 2px solid #ffffff;
+    width: 80%;
+}
+
+#frame{
+    border: 2px solid;
+    border-radius: 25px;
+    background-color: #9e79b0;
+    width: 500px;
+}
+#chart{
+    margin:0 auto; 
+    width: 80%;
+    border: 2px solid;
+    border-radius: 25px;
+}
+.box{
+    width: 106px;
+    height: 50px;
+     
+    
+}
+
+#switch{
+    margin:0 auto; 
+    text-align:center;
+    
+   
+  
+}
+
+.button {
+	display: inline-block;
+	outline: none;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	
+	
+	
+}
+
+.button:hover {
+	text-decoration: none;
+}
+
+.button:active {
+	position: relative;
+	top: 1px;
+}
+
+.button {
+	color: #e8f0de;
+	border: solid 1px black;
+	background: #d5cae6;
+	background: -webkit-gradient(linear, left top, left bottom, from(#7db72f), to(#4e7d0e));
+	background: -moz-linear-gradient(top,  #7db72f,  #4e7d0e);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#7db72f', endColorstr='#4e7d0e');
+}
